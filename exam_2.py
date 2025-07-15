@@ -10,8 +10,8 @@ console = Console()
 # ----------------- CLASE PARA SOPA DE LETRAS -----------------
 class StringCleaner:
     def __init__(self):
-        # Constructor vacío, se puede usar para inicializar atributos si se requiere en el futuro
-        pass
+        # Inicializa un atributo de ejemplo, útil para identificar la clase o para futuras ampliaciones
+        self.info = "Utilidad para limpiar y buscar palabras en sopa de letras"
 
     @staticmethod
     def find_word_in_grid(grid: List[List[str]], word: str) -> Optional[List[Tuple[int, int]]]:
